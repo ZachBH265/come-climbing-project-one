@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /* generic project styles */
-    color: #141414;
+    color: #fafafa;
     font-family: 'Space Mono', sans-serif;
 
 }
@@ -68,6 +68,7 @@ nav {
     box-shadow: 0 3px 3px #005555;
     display: none;
     top: 100%;
+    color: #fafafa;
 }
 
 #nav-toggle:checked~nav {
@@ -91,7 +92,20 @@ main {
 
 /* Footer */
 footer {
-    background-color: #005555;
+    background-color: #00aaaa;
+}
+#social-network {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-network i {
+    font-size: 160%;
+    padding: 5%;
+    color: #fafafa;
 }
 
 /* Media query for tablets and larger (768px)*/
@@ -127,6 +141,6 @@ footer {
 /* Media Query: for laptops (992px and larger)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #141414;
+        border-bottom: 1px solid #fafafa;
     }
 }    
