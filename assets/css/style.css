@@ -26,6 +26,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 3px #005555;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -53,6 +56,30 @@ h1 {
 
 .active {
     border-bottom: 1px solid #141414;
+}
+
+/* nav bar styles and drop down */
+nav {
+    position: absolute;
+    background-color: #00aaaa;
+    left: 0;
+    width: 100%;
+    padding: 0 1rem;
+    box-shadow: 0 3px 3px #005555;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2.5rem;
 }
 /* Main */
 main {
