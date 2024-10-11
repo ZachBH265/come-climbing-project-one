@@ -1,3 +1,6 @@
+/* Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 /* Asterix selector to overide default browser styles*/
 * {
     padding: 0;
@@ -12,6 +15,7 @@ body {
     flex-direction: column;
     /* generic project styles */
     color: #141414;
+    font-family: 'Mulish', sans-serif;
 
 }
 /* Header */
