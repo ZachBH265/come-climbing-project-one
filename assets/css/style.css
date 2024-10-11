@@ -1,0 +1,20 @@
+/* Asterix selector to overide default browser styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Header */
+header {
+    background-color: #00aaaa;
+}
+
+/* Main */
+main {
+    background-color: #005555;
+}
+
+/* Footer */
+footer {
+    background-color: #ffac1c;
+}
