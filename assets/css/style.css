@@ -1,5 +1,5 @@
 /* Google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Asterix selector to overide default browser styles*/
 * {
@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     /* generic project styles */
     color: #141414;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Space Mono', sans-serif;
 
 }
 /* Header */
@@ -23,6 +23,9 @@ header {
     background-color: #00aaaa;
 }
 
+h1 {
+    font-family: 'Mulish', sans-serif;
+}
 /* Main */
 main {
     background-color: #ffac1c;
