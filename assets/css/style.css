@@ -86,6 +86,7 @@ main {
     background-color: #ffac1c;
     /* Make the main element take up all available space and psuh footer to bottom*/
     flex: 1 0 auto;
+    margin-top: 90px;
 }
 
 /* Footer */
