@@ -112,10 +112,26 @@ main {
 #why > h2, h3 {
     color: #005555;
 }
+
+#why > h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 180%;
+}
 #why {
     width: 90%;
     margin: 20px auto;
     color: #005555;
+}
+
+.why-text {
+    margin: 20px;
+    text-align: center;
+}
+
+.why-text > h3 {
+    border-bottom: 1px solid rgba(198, 84, 101, 0.5);
 }
 /* Footer */
 footer {
