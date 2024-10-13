@@ -83,7 +83,7 @@ nav {
 }
 /* Main */
 main {
-    background-color: #fafafa;
+    
     /* Make the main element take up all available space and psuh footer to bottom*/
     flex: 1 0 auto;
     margin-top: 90px;
@@ -107,6 +107,15 @@ main {
     padding-top: 40px;
     padding-left: 20px;
     text-align: center;
+}
+
+#why > h2, h3 {
+    color: #005555;
+}
+#why {
+    width: 90%;
+    margin: 20px auto;
+    color: #005555;
 }
 /* Footer */
 footer {
@@ -154,6 +163,7 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
 }
 
 /* Media Query: for laptops (992px and larger)*/
