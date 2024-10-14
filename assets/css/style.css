@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    width: 100%;
     /* generic project styles */
     color: #fafafa;
     font-family: 'Space Mono', sans-serif;
@@ -48,8 +49,8 @@ header a {
 }
 
 #menu   {
-    font-size: 110%;
-    letter-spacing: 3px;
+    font-size: 90%;
+    letter-spacing: 2px;
     list-style-type: none;
 }
 
@@ -294,7 +295,7 @@ footer {
     }
 
     #logo {
-        font-size: 280%;
+        font-size: 200%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
