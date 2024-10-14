@@ -29,13 +29,17 @@ h1, h2, h3 {
 header {
     background-color: #00aaaa;
     padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     width: 100%;
     box-shadow: 0 3px 3px #005555;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+}
+header h1 {
+    text-align: start;
 }
 
 header a {
@@ -83,17 +87,16 @@ nav {
 }
 /* Main */
 main {
-    
-    /* Make the main element take up all available space and psuh footer to bottom*/
-    flex: 1 0 auto;
-    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto; 
 }
 
 /* Hero Styles*/
 #hero {
     height: 600px;
     width: 100%;
-    background: url(../images/AdobeStock_194158623.webp) no-repeat center center / cover;
+    background: url(../images/adobestock_194158623!.webp) no-repeat center center / cover;
     position: relative;
 }
 
@@ -139,7 +142,7 @@ main {
 }
 
 .rounded-image-one {
-    background: url(../images/AdobeStock_764491098.webp) no-repeat top center / cover;
+    background: url(../images/adobestock_764491098!.webp) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin: 20px;
@@ -149,7 +152,7 @@ main {
 }
 
 .rounded-image-two {
-    background: url(../images/AdobeStock_905242371.webp) no-repeat top center / cover;
+    background: url(../images/adobestock_905242371!.webp) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin: 20px;
@@ -160,7 +163,7 @@ main {
 
 
 .rounded-image-three {
-    background: url(../images/AdobeStock_434253933.webp) no-repeat top center / cover;
+    background: url(../images/adobestock_434253933!.webp) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin: 20px;
@@ -170,7 +173,7 @@ main {
 }
 
 .rounded-image-four {
-    background: url(../images/AdobeStock_774392307\ \(1\).webp) no-repeat top center / cover;
+    background: url(../images/adobestock_774392307!.webp) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin: 20px;
@@ -180,20 +183,23 @@ main {
 }
 /* sessions html styles*/
 #sessions {
-    background: url(../images/AdobeStock_633496174.webp) no-repeat center / cover;
+    background: url(../images/adobestock_633496174!.webp) no-repeat center / cover;
     display: flex;
     flex-wrap: wrap;
+}
+#times {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust columns based on available space */
+    gap: 20px; /* Space between items */
+    padding: 20px;
 }
 
 #times > div {
     color: #fafafa;
-    background-color: rgba(198, 84, 101, 0.3);
+    background-color: rgba(128, 40, 53, 0.5);
     padding: 20px;
     text-align: center;
-    flex-basis: 200px;
-    flex-grow: 1;
     border: 2px solid #fafafa;
-    margin: 20px;
 }
 
 #sessions h3 {
@@ -205,6 +211,47 @@ main {
     color: #00aaaa;
 }
 
+/* Sign up styles*/
+#get-started {
+    background-image: url("../images/adobestock_776109699!.webp");
+    background-size: cover;
+    background-position: 100%;
+    padding: 10%;
+    flex-grow: 1;
+    
+}
+
+#get-started-form {
+    color: #fafafa;
+    background-color: rgba(198, 84, 101, 0.6);
+    padding: 30px;
+}
+
+#signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #c65465;
+    color: #fafafa;
+}
 /* Footer */
 footer {
     background-color: #00aaaa;
@@ -271,6 +318,28 @@ footer {
     #what-we-do > div, #where-we-do-it > div {
         text-align: end;
         align-self: flex-end;
+    }
+
+    /* Get started form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 300px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #c65465;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #c65465;
     }
 }
 
