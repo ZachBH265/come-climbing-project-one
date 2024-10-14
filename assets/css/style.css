@@ -93,7 +93,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url(../images/AdobeStock_194158623.jpeg) no-repeat center center / cover;
+    background: url(../images/AdobeStock_194158623.webp) no-repeat center center / cover;
     position: relative;
 }
 
@@ -133,6 +133,52 @@ main {
 .why-text > h3 {
     border-bottom: 1px solid rgba(198, 84, 101, 0.5);
 }
+
+#why-images-one,  #why-images-two, #why-images-three, #why-images-four{
+    display: flex;
+}
+
+.rounded-image-one {
+    background: url(../images/AdobeStock_764491098.webp) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    border-radius: 25%;
+    max-width: 350px;
+    max-height: 350px; 
+}
+
+.rounded-image-two {
+    background: url(../images/AdobeStock_905242371.webp) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    border-radius: 25%;
+    max-width: 350px;
+    max-height: 350px
+}
+
+
+.rounded-image-three {
+    background: url(../images/AdobeStock_434253933.webp) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    border-radius: 25%;
+    max-width: 350px;
+    max-height: 350px
+}
+
+.rounded-image-four {
+    background: url(../images/AdobeStock_774392307\ \(1\).webp) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    border-radius: 25%;
+    max-width: 350px;
+    max-height: 350px
+}
+
 /* Footer */
 footer {
     background-color: #00aaaa;
@@ -180,6 +226,26 @@ footer {
         margin: 0 0.5rem;
     }
 
+    /* why section*/
+    #who-we-are, #what-we-do, #who-is-it-for, #where-we-do-it {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #who-we-are > div, #what-we-do > div, #who-is-it-for > div, #where-we-do-it > div {
+        width: 75%;
+    }
+
+    #who-we-are > div, #who-is-it-for > div {
+        text-align: left;
+        align-self: flex-start;
+    }
+
+    #what-we-do > div, #where-we-do-it > div {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
 /* Media Query: for laptops (992px and larger)*/
@@ -187,4 +253,5 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #fafafa;
     }
+
 }    
