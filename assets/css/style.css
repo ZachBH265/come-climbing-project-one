@@ -86,7 +86,7 @@ main {
     
     /* Make the main element take up all available space and psuh footer to bottom*/
     flex: 1 0 auto;
-    margin-top: 90px;
+    margin-top: 140px;
 }
 
 /* Hero Styles*/
@@ -131,7 +131,7 @@ main {
 }
 
 .why-text > h3 {
-    border-bottom: 1px solid rgba(198, 84, 101, 0.5);
+    border-bottom: 1px solid rgb(198, 84, 101);
 }
 
 #why-images-one,  #why-images-two, #why-images-three, #why-images-four{
@@ -177,6 +177,32 @@ main {
     border-radius: 25%;
     max-width: 350px;
     max-height: 350px
+}
+/* sessions html styles*/
+#sessions {
+    background: url(../images/AdobeStock_633496174.webp) no-repeat center / cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times > div {
+    color: #fafafa;
+    background-color: rgba(198, 84, 101, 0.3);
+    padding: 20px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid #fafafa;
+    margin: 20px;
+}
+
+#sessions h3 {
+    color: #fafafa;
+    border-bottom: 1px solid #00aaaa;
+}
+
+#sessions a {
+    color: #00aaaa;
 }
 
 /* Footer */
