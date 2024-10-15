@@ -125,33 +125,41 @@ The site is deployed using GitHub Pages - [Come Climbing](https://zachbh265.gith
 
 To Deploy the site using GitHub Pages:
 
-1. Login (or signup) to Github.
-2. Go to the repository for this project, [ZachBH265/ComeClimbing](https://github.com/ZachBH265/come-climbing-project-1).
-3. Click the settings button.
-4. Select pages in the left hand navigation menu.
-5. From the source dropdown select main branch and press save.
-6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+* Login (or signup) to Github.
+* Go to the repository for this project, [ZachBH265/ComeClimbing](https://github.com/ZachBH265/come-climbing-project-1).
+* Click the settings button.
+* Select pages in the left hand navigation menu.
+* From the source dropdown select main branch and press save.
+* The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
 
 #### How to Fork
 
 To fork the repository:
 
-1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [ZachBH265/ComeClimbing](https://github.com/ZachBH265/come-climbing-project-1).
-3. Click the Fork button in the top right corner.
+* Log in (or sign up) to Github.
+* Go to the repository for this project, [ZachBH265/ComeClimbing](https://github.com/ZachBH265/come-climbing-project-1).
+* Click the Fork button in the top right corner.
 
 #### How to Clone
 
 To clone the repository:
 
-1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [ZachBH265/ComeClimbing](https://github.com/ZachBH265/come-climbing-project-1).
-3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+* Log in (or sign up) to GitHub.
+* Go to the repository for this project, [ZachBH265/ComeClimbing](https://github.com/ZachBH265/come-climbing-project-1).
+* Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+* Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+* Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
+### Solved Bugs
 
+* the main element was not taking up the full width fo the page. Used developer tools to see what the issue was. Found that there was a margin set that was affecting it, by changing the margin value the content fit perfectly to the screen size
+
+### Known Bugs
+
+* when viewing on mobile and tablet the screen, the page content can sometimes get cropped out by the right hand side of the right hand sid eof the screen. 
+* on mobile screens 320px wide only there is a white band that runs down the whole right side of the website.
+* The favicon sometimes will load and at other times will not 
 ## Credits
 
 ### Code Used
